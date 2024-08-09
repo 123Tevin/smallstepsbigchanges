@@ -1,0 +1,171 @@
+﻿/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * myriad-arabic:
+ *   - http://typekit.com/eulas/00000000000000007735a2f9
+ *   - http://typekit.com/eulas/00000000000000007735a2fa
+ *   - http://typekit.com/eulas/00000000000000007735a2fd
+ *   - http://typekit.com/eulas/00000000000000007735a300
+ *   - http://typekit.com/eulas/00000000000000007735a304
+ *   - http://typekit.com/eulas/00000000000000007735a305
+ *   - http://typekit.com/eulas/00000000000000007735a306
+ *   - http://typekit.com/eulas/00000000000000007735a307
+ *   - http://typekit.com/eulas/00000000000000007735a308
+ *   - http://typekit.com/eulas/00000000000000007735a309
+ * soleil:
+ *   - http://typekit.com/eulas/00000000000000007735a1ac
+ *   - http://typekit.com/eulas/00000000000000007735a1aa
+ *   - http://typekit.com/eulas/00000000000000007735a1b7
+ *   - http://typekit.com/eulas/00000000000000007735a1ad
+ *   - http://typekit.com/eulas/00000000000000007735a1b1
+ *   - http://typekit.com/eulas/00000000000000007735a1b6
+ *   - http://typekit.com/eulas/00000000000000007735a1bb
+ *   - http://typekit.com/eulas/00000000000000007735a1be
+ *   - http://typekit.com/eulas/00000000000000007735a1c0
+ *   - http://typekit.com/eulas/00000000000000007735a1c1
+ *   - http://typekit.com/eulas/00000000000000007735a1c2
+ *   - http://typekit.com/eulas/00000000000000007735a1c3
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-05-05 08:10:59 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"soleil";
+src:url("af/5d2da8/00000000000000007735a1ac/30/l") format("woff2"),url("af/5d2da8/00000000000000007735a1ac/30/d") format("woff"),url("af/5d2da8/00000000000000007735a1ac/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/59b013/00000000000000007735a1aa/30/l") format("woff2"),url("af/59b013/00000000000000007735a1aa/30/d") format("woff"),url("af/59b013/00000000000000007735a1aa/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/a9ccd8/00000000000000007735a1b7/30/l") format("woff2"),url("af/a9ccd8/00000000000000007735a1b7/30/d") format("woff"),url("af/a9ccd8/00000000000000007735a1b7/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/6416f2/00000000000000007735a1ad/30/l") format("woff2"),url("af/6416f2/00000000000000007735a1ad/30/d") format("woff"),url("af/6416f2/00000000000000007735a1ad/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/3ec29d/00000000000000007735a1b1/30/l") format("woff2"),url("af/3ec29d/00000000000000007735a1b1/30/d") format("woff"),url("af/3ec29d/00000000000000007735a1b1/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/fd801b/00000000000000007735a1b6/30/l") format("woff2"),url("af/fd801b/00000000000000007735a1b6/30/d") format("woff"),url("af/fd801b/00000000000000007735a1b6/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/38a1ad/00000000000000007735a1bb/30/l") format("woff2"),url("af/38a1ad/00000000000000007735a1bb/30/d") format("woff"),url("af/38a1ad/00000000000000007735a1bb/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/19bbb3/00000000000000007735a1be/30/l") format("woff2"),url("af/19bbb3/00000000000000007735a1be/30/d") format("woff"),url("af/19bbb3/00000000000000007735a1be/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/84e430/00000000000000007735a1c0/30/l") format("woff2"),url("af/84e430/00000000000000007735a1c0/30/d") format("woff"),url("af/84e430/00000000000000007735a1c0/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/4b2283/00000000000000007735a1c1/30/l") format("woff2"),url("af/4b2283/00000000000000007735a1c1/30/d") format("woff"),url("af/4b2283/00000000000000007735a1c1/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/4dd902/00000000000000007735a1c2/30/l") format("woff2"),url("af/4dd902/00000000000000007735a1c2/30/d") format("woff"),url("af/4dd902/00000000000000007735a1c2/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"soleil";
+src:url("af/d9e6fa/00000000000000007735a1c3/30/l") format("woff2"),url("af/d9e6fa/00000000000000007735a1c3/30/d") format("woff"),url("af/d9e6fa/00000000000000007735a1c3/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/c0f773/00000000000000007735a2f9/30/l") format("woff2"),url("af/c0f773/00000000000000007735a2f9/30/d") format("woff"),url("af/c0f773/00000000000000007735a2f9/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/b2d527/00000000000000007735a2fa/30/l") format("woff2"),url("af/b2d527/00000000000000007735a2fa/30/d") format("woff"),url("af/b2d527/00000000000000007735a2fa/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/d1936b/00000000000000007735a2fd/30/l") format("woff2"),url("af/d1936b/00000000000000007735a2fd/30/d") format("woff"),url("af/d1936b/00000000000000007735a2fd/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/ad6dbc/00000000000000007735a300/30/l") format("woff2"),url("af/ad6dbc/00000000000000007735a300/30/d") format("woff"),url("af/ad6dbc/00000000000000007735a300/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/43cbed/00000000000000007735a304/30/l") format("woff2"),url("af/43cbed/00000000000000007735a304/30/d") format("woff"),url("af/43cbed/00000000000000007735a304/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/21bb6a/00000000000000007735a305/30/l") format("woff2"),url("af/21bb6a/00000000000000007735a305/30/d") format("woff"),url("af/21bb6a/00000000000000007735a305/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/476be8/00000000000000007735a306/30/l") format("woff2"),url("af/476be8/00000000000000007735a306/30/d") format("woff"),url("af/476be8/00000000000000007735a306/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/918f2b/00000000000000007735a307/30/l") format("woff2"),url("af/918f2b/00000000000000007735a307/30/d") format("woff"),url("af/918f2b/00000000000000007735a307/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/84ebdd/00000000000000007735a308/30/l") format("woff2"),url("af/84ebdd/00000000000000007735a308/30/d") format("woff"),url("af/84ebdd/00000000000000007735a308/30/a") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"myriad-arabic";
+src:url("af/c16b85/00000000000000007735a309/30/l") format("woff2"),url("af/c16b85/00000000000000007735a309/30/d") format("woff"),url("af/c16b85/00000000000000007735a309/30/a") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+.tk-soleil { font-family: "soleil",sans-serif; }
+.tk-myriad-arabic { font-family: "myriad-arabic",sans-serif; }
