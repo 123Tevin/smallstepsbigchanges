@@ -357,6 +357,12 @@ transform: scale(1.05); /* Slightly enlarge on hover */
                                             width: 20px;
                                             height: 20px;
                                         }
+                                        .bg-green-medium{
+                                            transition: filter 0.3s ease, color 0.3s ease;
+                                        }
+                                        .bg-green-medium:hover{
+                                            fill: white;
+                                        }
                                     </style>
                                 </div>
                                  
@@ -401,133 +407,228 @@ transform: scale(1.05); /* Slightly enlarge on hover */
                         <h2>Browse by Age: </h2>
                           <ul class="bba__list" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; ">
                             
-                                                                                      <li class="bba__item" style="list-style-type: none; margin-bottom:20px;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/0-3-years" title="0-3 Years" class="bg-green-medium " style="
-              font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color: white;
-              background-color: blue; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;
-              width: 100px;
-              height: 100px;" onmouseover="this.style.color='blue'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='blue'; this.style.fontSize='28px';">
-              
-                                                                                  4-5                                                                 </a>
-                                  </li>
+                                <li class="bba__item" style="list-style-type: none; margin-bottom:20px;">
+                                      <a href="https://usborne.com/row/books/browse-by-age/4-5years" title="4-5Years" class="icon-link1">4-5</a></li>
+                                       <style>
+                                      .icon-link1{
+                                        font-size: 28px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 100px;
+                                        height: 100px;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        color:white;
+                                        background-image: url('file:///C:/Users/hp/Pictures/Asset%208.svg'); /* SVG background image */
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        text-decoration: none;
+                                        transition: background-color 0.3s,color 0.3s, background-image 0.3s;
+                                        background-color: transparent;
+                                      }
+                                      .icon-link1:hover{
+                                        background-image: none;
+                                        background-color: white;
+                                        color: blue;
+                                      }
+            
+            
+            </style>
                                                                                       <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/3-5-years" title="3-5 Years" class="bg-orange bg-to-content-orange" style="
-              font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color: white;
-              background-color: aquamarine; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='aquamarine'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='aquamarine'; this.style.fontSize='28px';">
-                                                                                  5-6                                                                    </a>
-                                  </li>
+                                      <a href="https://usborne.com/row/books/browse-by-age/5-6-years" title="5-6 Years" class="icon-link2">5-6</a></li>
+                                      <style>
+                                        .icon-link2{
+                                            font-size: 28px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100px;/* Adjust the width and height as needed */
+                                            height:100px;
+                                            border-radius: 50%;
+                                            text-align: center;
+                                            color:white;
+                                            background-image: url('file:///C:/Users/hp/Pictures/Asset%206.svg');/* SVG background image*/
+                                            background-size: cover;
+                                            background-position: cover;
+                                            background-repeat:no-repeat;
+                                            text-decoration: none;
+                                            transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+                                            background-color: transparent; /*Initial background color is transparent*/
+                                        }
+                                        .icon-link2:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color:orange;
+                                        }
+                                      </style>
+
+                                                                                 <li class="bba__item" style="list-style-type: none;">
+                                      <a href="https://usborne.com/row/books/browse-by-age/6-7-years" title="6-7 Years" class="icon-link3">6-7</a></li>
+                                      <style>
+                                        .icon-link3{
+                                            font-size: 28px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100px;
+                                            height:100px;
+                                            border-radius: 50%;
+                                            text-align: center;
+                                            color:white;
+                                            background-image: url('file:///C:/Users/hp/Pictures/Asset%2011.svg');
+                                            background-size:cover;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            text-decoration: none;
+                                            transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+                                            background-color: transparent;
+                                        }
+                                        .icon-link3:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color:red;
+                                        }
+                                      </style>
                                                                                       <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/5-7-years" title="5-7 Years" class="bg-red bg-to-content-red" style="font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color: white;
-              background-color: red; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='red'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='red'; this.style.fontSize='28px';">                
-                                                                                  6-7                                                                   </a>
-                                  </li>
+                                      <a href="https://usborne.com/row/books/browse-by-age/7-8-years" title="7-8 Years" class="icon-link4">7-8</a></li>
+                                      <style>
+                                        .icon-link4{
+                                            font-size: 28px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100px; 
+                                            height: 100px;
+                                            border-radius: 50%;
+                                            text-align: center;
+                                            color:white;
+                                            background-image: url('file:///C:/Users/hp/Pictures/Asset%208.svg');
+                                            background-size: cover;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            text-decoration: none;
+                                            transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+                                            background-color: transparent;
+                                        }
+                                        .icon-link4:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color: blue;
+                                        }
+                                      </style> 
+                                      
                                                                                       <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/7-11-years" title="7-11 Years" class="bg-purple bg-to-content-purple" style="font-size:28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color: white;
-              background-color: orange; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='orange'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='orange'; this.style.fontSize='28px';"> 
-                                                                                  7-8                                                                    </a>
-                                  </li>
+                                      <a href="https://usborne.com/row/books/browse-by-age/8-9-years" title="8-9 Years" class="icon-link5">8-9</a></li>
+                                      <style>
+                                        .icon-link5{
+                                            font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-image: url('file:///C:/Users/hp/Pictures/Asset%207.svg'); /* SVG background image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+    background-color: transparent; /* Initial background color is transparent */
+                                        }
+                                        .icon-link5:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color: purple;
+                                        }
+                                      </style>
+             
                                                                                       <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/11-13-years" title="11-13 Years" class="bg-blue bg-to-content-blue" style="font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color: white;
-              background-color: purple; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='purple'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='purple'; this.style.fontSize='28px';">
-                                                                                  8-9                                                                 </a>
-                                  </li>
-                                                                                      <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/9-10years" title="13+ Years" class="bg-navy bg-to-content-navy" style="font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color:white;
-              background-color: pink; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='pink'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='pink'; this.style.fontSize='28px';">
-                                                                                  9-10                                                                </a>
-                                  </li>
+                                      <a href="https://usborne.com/row/books/browse-by-age/9-10years" title="9-10 Years" class="icon-link6">9-10</a></li> 
+                                <style>
+                                    .icon-link6 {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-image: url('file:///C:/Users/hp/Pictures/Asset%2011.svg'); /* SVG background image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+    background-color: transparent; /* Initial background color is transparent */
+}
+.icon-link6:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color: red;
+                                        }
+                                </style>
+
        <li class="bba__item" style="list-style-type: none;">
-                                      <a href="https://usborne.com/row/books/browse-by-age/10-11years" title="13+ Years" class="bg-navy bg-to-content-navy" style="font-size: 28px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 100px; /* Adjust the width and height as needed */
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              color:white;
-              background-color: wheat; /* Initial background color */
-              transition: background-color 0.3s, color 0.3s;
-              text-decoration: none;" onmouseover="this.style.color='wheat'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='wheat'; this.style.fontSize='28px';">
-                                                                                  10-11                                                              </a>
-                                  </li>
+                                      <a href="https://usborne.com/row/books/browse-by-age/10-11years" title="10-11 Years" class="icon-link7">10-11</a></li>
+                                      <style>
+                                        .icon-link7{
+                                            font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-image: url('file:///C:/Users/hp/Pictures/Asset%2010.svg'); /* SVG background image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+    background-color: transparent; /* Initial background color is transparent */
+}
+.icon-link7:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color: yellow;
+                                        }                                  </style>
                                   <li class="bba__item" style="list-style-type: none;">
-                                    <a href="https://usborne.com/row/books/browse-by-age/11-12years" title="13+ Years" class="bg-navy bg-to-content-navy" style="font-size: 28px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100px; /* Adjust the width and height as needed */
-            height: 100px;
-            border-radius: 50%;
-            text-align: center;
-            color:white;
-            background-color: lightgreen; /* Initial background color */
-            transition: background-color 0.3s, color 0.3s;
-            text-decoration: none;" onmouseover="this.style.color='lightgreen'; this.style.backgroundColor='white'; this.style.fontSize='28px';" onmouseout="this.style.color='white'; this.style.backgroundColor='lightgreen'; this.style.fontSize='28px';">
-            11-12
-            </a>
-    
-                                                </li>
+                                    <a href="file:///C:/Users/hp/Pictures/Asset%2011.svg" title="11-12Years" class="icon-link8">11-12</a></li> 
+                                    <style>
+                                        .icon-link8{
+                                            font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-image: url('file:///C:/Users/hp/Pictures/Asset%209.svg'); /* SVG background image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+    background-color: transparent; /* Initial background color is transparent */
+}
+.icon-link8:hover{
+                                            background-image: none;
+                                            background-color: white;
+                                            color: green;
+                                        }    
+                                    </style>
+           
                                 </ul>
                       </div>
                   </div>
@@ -543,67 +644,6 @@ transform: scale(1.05); /* Slightly enlarge on hover */
 
   
 
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
 
   
 
@@ -616,72 +656,6 @@ transform: scale(1.05); /* Slightly enlarge on hover */
         </div>
       </div>
     </div>
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
@@ -715,319 +689,313 @@ transform: scale(1.05); /* Slightly enlarge on hover */
      </div>
      </div>
     
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-         
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-
-  
-
   
     
       <h2 class="fluid-title mt40 mb40"></h2>
 
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-    <div class="fluid-link-grid">
-      <div class="container">
-        <div class="row">
-          
+      <div class="fluid-link-grid">
+        <div class="container2">
+          <div class="row1">
+            
             <div class="col-12 col-md-6 col-lg-4 link-grid-item">
               <div class="link-grid-item-inner">
                 <div class="link-grid-link">
                   <div class="link-grid-img object-fit-wrapper">
-                    <video class="img-fluid lazy-load rounded-video" autoplay loop muted style="margin-right:40%;">
-                        <source src="C:\Users\hp\Desktop\peppa_pig_ice_cream_clip_h264_42974.mp4" type="video/mp4" style="width:80%;">
-                       </video>
-                       <style>
-                        .rounded-video {
-                          border-radius: 30px; /* Adjust the value as needed */
-                        }
-                    </style>
-                  </div>
-                  <div class="link-grid-content">
-                    <a class="full-card-click" aria-label="Learning Hub" href="knowledge-hub/learning-hub-1.html">
-                        <h4 style="font-size: 200%; ">Activities</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="col-12 col-md-6 col-lg-4 link-grid-item">
-              <div class="link-grid-item-inner">
-                <div class="link-grid-link">
-                  <div class="link-grid-img object-fit-wrapper">
-                    <video class="img-fluid lazy-load rounded-video" autoplay loop muted >
-                     <source src="C:\Users\hp\Desktop\peppa_pig_ice_cream_clip_h264_42974.mp4" type="video/mp4">
-                    </video>
-                    <style>
-                        .rounded-video {
-                          border-radius: 30px; /* Adjust the value as needed */
-                        }
-                    </style>
-                  </div>
-                  <div class="link-grid-content">
-                    <a class="full-card-click" aria-label="News and Events" href="news-and-events-2.html">
-                        <h4 style="font-size: 200%;">Videos</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="col-12 col-md-6 col-lg-4 link-grid-item">
-              <div class="link-grid-item-inner">
-                <div class="link-grid-link">
-                  <div class="link-grid-img object-fit-wrapper"style="margin-right:40%;heigth:100%; width:100%;">
-                    <video class="img-fluid lazy-load rounded-video" autoplay loop muted >
+                    <div class="video-container">
+                      <video class="img-fluid lazy-load rounded-video" autoplay loop muted>
                         <source src="C:\Users\hp\Desktop\peppa_pig_ice_cream_clip_h264_42974.mp4" type="video/mp4">
-                       </video>
-                       
-                       <style>
-                        .rounded-video {
-                          border-radius: 50px; /* Adjust the value as needed */
-                          width: 100%;
-                          height: 100%;
-                        }
-                    </style>
-                  </div>
-                  <div class="link-grid-content">
-                    <a class="full-card-click" aria-label="Groups and Activities" href="families/local-groups-and-activities-1.html">
-                        <h4 style="font-size: 200%;">Games</h4>
-                    </a>
+                      </video>
+                    </div>
+                    <div class="link-grid-content">
+                      <a class="full-card-click" aria-label="Learning Hub" href="knowledge-hub/learning-hub-1.html">
+                        <h4 style="color:#000;">Activities</h4>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 link-grid-item">
+              <div class="link-grid-item-inner">
+                <div class="link-grid-link">
+                  <div class="link-grid-img object-fit-wrapper">
+                    <div class="video-container">
+                      <video class="img-fluid lazy-load rounded-video" autoplay loop muted>
+                        <source src="C:\Users\hp\Desktop\peppa_pig_ice_cream_clip_h264_42974.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="link-grid-content">
+                      <a class="full-card-click" aria-label="News and Events" href="news-and-events-2.html">
+                        <h4 style="color:#000;">Videos</h4>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 link-grid-item">
+              <div class="link-grid-item-inner">
+                <div class="link-grid-link">
+                  <div class="link-grid-img object-fit-wrapper">
+                    <div class="video-container">
+                      <video class="img-fluid lazy-load rounded-video" autoplay loop muted>
+                        <source src="C:\Users\hp\Desktop\peppa_pig_ice_cream_clip_h264_42974.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="link-grid-content">
+                      <a class="full-card-click" aria-label="Groups and Activities">
+                        <h4 style="color:#000;">Games</h4>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
         </div>
       </div>
-    </div>
-
+    
     <div class="container1">
-       
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\about-img.png" alt="Cute Icon" class="icon">
-            <div class="box-text">English</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\about-img.png" alt="Cute Icon" class="icon">
-            <div class="box-text">Kiswahili</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\about-img.png" alt="Cute Icon" class="icon">
-            <div class="box-text">Science and Technology</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\about-img.png" alt="Cute Icon" class="icon">
-            <div class="box-text">Our World</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\images (1).png" alt="Cute Icon" class="icon">
-            <div class="box-text">Emotions</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\images (1).png"alt="Cute Icon" class="icon">
-            <div class="box-text">Community</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\images (1).png" alt="Cute Icon" class="icon">
-            <div class="box-text">Creativity</div>
-        </div>
-        <div class="box">
-            <img src="C:\Users\hp\Pictures\images (1).png" alt="Cute Icon" class="icon">
-            <div class="box-text">My Body</div>
-        </div>
         
+        <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">English</div>
+       </div>
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">Kiswahili</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">STEM</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">Our World</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">Emotions</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">Community</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">Creativity</div>
+       </div>
+
+       <div class="box">
+            <img src="C:\Users\hp\Pictures\about-img.png"alt=""class="cimg">
+            <div class="box-text">My Body</div>
+       </div>
     </div>
   <style>
-    /* CSS */
+  .fluid-big-little-moments-block {
+    background-image: url('C:\Users\hp\Pictures\greengrassfield.jfif'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 20px; /* Optional: Adds padding around the content */
+    border-radius: 15px; /* Optional: Rounds the corners */
+}
+
+    .fluid-link-grid{
+        margin-bottom: 100px;
+    }
     .container1 {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; /* Space between boxes */
-        width: 200%; /* Adjust as needed */
-        justify-content: space-between;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between boxes */
+    justify-content: space-between;
+    grid-template-columns: repeat(4,1fr);
+    padding-right:10px;
+    margin-top: -150px;
+    padding-left: 10px;
+}
+
+.box {
+    width: 20%; /* Adjust width to fit 4 boxes per row with gaps */
+    background-color: #ffcccb; /* Light pink background */
+    border-radius: 15px;
+    border: 3px solid #ff6f61; /* Bright coral border */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position:relative;
+    height: 50px;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    padding: 10px;
     
-    .box {
-        width: calc(25% - 20px);/*Adjust width to fit 4 boxes per row with gaps*/
-        height: 120px;
-        background-color: #ffcccb; /* Light pink background */
-        border-radius: 15px;
-        border: 3px solid #ff6f61; /* Bright coral border */
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.topics{
+    color:#000;
+}
+.box:hover {
+    transform: scale(1.1);
+    background-color: #ffeb3b; /* Bright yellow on hover */
+}
+
+.cimg {
+    width: 50px;
+    height: 60px;
+    top: -20px;
+    left: -20px;
+    position: absolute;
+    z-index:2;
+}
+
+.box-text {
+    flex-grow: 1; /* This makes sure the text takes up the remaining space */
+    text-align: center; /* Center the text vertically within the box */
+    font-size: 25px;
+    color: #333;
+}
+
+@media (max-width:900px){
+    .box{
+        width:48%;
+        height:50px;
     }
-    
-    .box:hover {
-        transform: scale(1.1);
-        background-color: #ffeb3b; /* Bright yellow on hover */
-    }
-    
-    .icon {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 10px; /* Space between icon and text */
-    }
-    .box-text{
-        color:#000;
-    }
-    
+}
+
+.row1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.video-container{
+    border-radius:30px;
+}
+.childish-footer {
+  background-color: #f4a261; /* Light Orange */
+  color: #fff;
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+  border-top: 8px solid #2a9d8f; /* Teal border */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 1.5em;
+  color: #264653; /* Dark Teal */
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #e76f51; /* Subtle shadow */
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffcbf2; /* Soft pink */
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 2em;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #264653;
+}
+
+.footer-bottom i {
+  color: #e76f51; /* Bright coral */
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.link-grid-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.link-grid-content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: bottom 0.5s ease;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 0 0 15px 15px;
+}
+
+.link-grid-item-inner:hover .link-grid-content {
+  bottom: 0;
+}
+
+.link-grid-item-inner {
+  margin-bottom: 20px;
+}
+.container2{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
   </style>
   
               
@@ -1042,60 +1010,6 @@ transform: scale(1.05); /* Slightly enlarge on hover */
         </div>
       </div>
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-        
-
- 
 
 <script>var o = document.getElementsByName("freeform_form_handle_6e2137"); for (var i in o) { if (!o.hasOwnProperty(i)) {continue;} o[i].value = "04ef10d4e"; }</script>
 <script>"use strict";var form=document.getElementById("7889f8-form-EGv0Y2ed7_0dc8_c54d05d85d81951c8e49c5a6af75284c4bc6bafd66b1dc567f62f").parentElement;form.addEventListener("submit",function(){var t=form.querySelectorAll("[type=submit]:not([name=form_previous_page_button])"),e=!0,r=!1,n=void 0;try{for(var o,i=function(){var t=o.value;t.disabled=!0,setTimeout(function(){t.disabled=!1},6e5)},a=t[Symbol.iterator]();!(e=(o=a.next()).done);e=!0)i()}catch(l){r=!0,n=l}finally{try{!e&&a["return"]&&a["return"]()}finally{if(r)throw n}}});</script></form>
@@ -1112,18 +1026,7 @@ transform: scale(1.05); /* Slightly enlarge on hover */
 
         
 
-        <footer class="footer copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="footer__bottom">
-                            <p>&copy; Copyright 2024 ReadMore Africa</p>
-                            <p>Website by <a href="https://www.optimadesign.co.uk">Grow Mobile Technology</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       
     </div>
 
     <div class="modal fade modal--search" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
@@ -1342,7 +1245,42 @@ transform: scale(1.05); /* Slightly enlarge on hover */
             </div>
         </div>
     </div>
-
+    <footer class="childish-footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Stories</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Fun Links</h3>
+            <ul>
+              <li><a href="#">Join Club</a></li>
+              <li><a href="#">Coloring Pages</a></li>
+              <li><a href="#">Puzzle Zone</a></li>
+              <li><a href="#">Craft Ideas</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Get in Touch</h3>
+            <p><i class="fas fa-envelope"></i> hello@kidsfun.com</p>
+            <p><i class="fas fa-phone"></i> +123-456-7890</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Kids Fun | Designed with <i class="fas fa-heart"></i> by Creative Minds</p>
+        </div>
+      </footer>
+      
 
 
     <div class="loader " id="language-loader"></div>
